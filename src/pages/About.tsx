@@ -1,82 +1,42 @@
 function About() {
     return (
-        <main className="min-h-screen bg-[#f5f3ee] text-[#111]">
+        <main className="min-h-screen bg-black text-white">
 
             {/* Introduction */}
-            <section className="mx-auto grid max-w-7xl grid-cols-1 md:grid-cols-2">
+            <section className="mx-auto max-w-7xl px-6 py-24 md:px-12">
 
-                {/* Portrait */}
-                <div className="flex min-h-[70vh] items-center justify-center p-6 md:p-12">
-                    <div className="w-full bg-white">
-                        {/* Grandfather's photograph will go here */}
+                <div className="grid grid-cols-1 gap-16 md:grid-cols-2 md:items-center">
 
-                        <div className="flex aspect-[4/5] items-center justify-center bg-black/5">
-                            <p className="text-sm text-black/40">
-                                Portrait
-                            </p>
-                        </div>
+                    {/* Image */}
+                    <div className="overflow-hidden">
+                        <img
+                            src="/images/about-1.jpg"
+                            alt="Mehdi Zoufan"
+                            className="h-full w-full object-cover"
+                        />
                     </div>
-                </div>
 
-                {/* Introduction text */}
-                <div className="flex items-center px-8 py-20 md:px-16">
-
+                    {/* Text */}
                     <div className="max-w-xl">
 
-                        <p className="mb-6 text-sm text-black/50">
-                            درباره هنرمند
+                        <p className="mb-6 text-sm uppercase tracking-[0.2em] text-white/50">
+                            About the Artist
                         </p>
 
                         <h1 className="font-serif text-5xl leading-tight md:text-7xl">
-                            مهدی ذوفن
+                            Mehdi Zoufan
                         </h1>
 
-                        <p className="mt-10 text-lg leading-9 text-black/70">
-                            مهدی ذوفن هنرمندی بود که نگاه شخصی خود به جهان را
-                            از طریق آثارش به تصویر کشید.
+                        <p className="mt-8 text-lg leading-9 text-white/70">
+                            Mehdi Zoufan was an Iranian artist whose work was deeply
+                            connected to the tradition of Ghalamzani, the art of
+                            engraving intricate designs onto metal.
                         </p>
 
-                        <p className="mt-6 text-base leading-8 text-black/60">
-                            این مجموعه با هدف حفظ و معرفی آثار، زندگی و میراث هنری
-                            او گردآوری شده است.
-                        </p>
-
-                    </div>
-
-                </div>
-
-            </section>
-
-
-            {/* Biography */}
-            <section className="border-t border-black/10">
-
-                <div className="mx-auto max-w-4xl px-6 py-24 md:px-12">
-
-                    <p className="mb-6 text-sm text-black/50">
-                        زندگی و هنر
-                    </p>
-
-                    <h2 className="font-serif text-4xl md:text-5xl">
-                        داستان او
-                    </h2>
-
-                    <div className="mt-12 space-y-6 text-base leading-9 text-black/70">
-
-                        <p>
-                            اینجا می‌توانیم داستان زندگی مهدی ذوفن، مسیر هنری،
-                            علاقه‌ها و نگاه او به هنر را روایت کنیم.
-                        </p>
-
-                        <p>
-                            این بخش می‌تواند شامل اطلاعاتی درباره دوران زندگی،
-                            فعالیت‌های هنری، نمایشگاه‌ها و تأثیراتی باشد که بر
-                            آثار او گذاشته‌اند.
-                        </p>
-
-                        <p>
-                            متن کامل زندگی‌نامه را بعداً با اطلاعات واقعی درباره
-                            زندگی و آثار او جایگزین خواهیم کرد.
+                        <p className="mt-6 text-base leading-8 text-white/60">
+                            Through patience, precision and an extraordinary attention
+                            to detail, he transformed metal surfaces into intricate
+                            works of art.
                         </p>
 
                     </div>
@@ -86,12 +46,185 @@ function About() {
             </section>
 
 
-            {/* Closing statement */}
-            <section className="bg-[#111] px-6 py-32 text-center text-white">
+            {/* What is Ghalamzani */}
+            <section className="border-t border-white/10">
+
+                <div className="mx-auto max-w-7xl px-6 py-24 md:px-12">
+
+                    <div className="grid grid-cols-1 gap-16 md:grid-cols-2">
+
+                        {/* Heading */}
+                        <div>
+                            <p className="mb-6 text-sm uppercase tracking-[0.2em] text-white/50">
+                                The Art
+                            </p>
+
+                            <h2 className="font-serif text-5xl leading-tight md:text-6xl">
+                                What is
+                                <br />
+                                Ghalamzani?
+                            </h2>
+                        </div>
+
+                        {/* Description */}
+                        <div className="max-w-xl">
+
+                            <p className="text-lg leading-9 text-white/70">
+                                Ghalamzani is a traditional Iranian art of engraving
+                                designs onto metal. The artist uses specialized chisels
+                                and a hammer to gradually create lines, patterns and
+                                textures on the surface of the metal.
+                            </p>
+
+                            <p className="mt-6 text-base leading-8 text-white/50">
+                                The technique requires precision, patience and a deep
+                                understanding of line and composition. Floral patterns,
+                                figures, animals, architectural scenes and other
+                                decorative motifs can emerge from the metal through
+                                thousands of carefully controlled marks.
+                            </p>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </section>
+
+
+            {/* Ghalamzani image */}
+            <section className="px-6 md:px-12">
+
+                <div className="mx-auto max-w-7xl">
+
+                    <img
+                        src="/images/ghalamzani.jpg"
+                        alt="Ghalamzani engraving"
+                        className="max-h-[80vh] w-full object-cover"
+                    />
+
+                </div>
+
+            </section>
+
+
+            {/* Life highlights */}
+            <section className="border-t border-white/10">
+
+                <div className="mx-auto max-w-7xl px-6 py-24 md:px-12">
+
+                    <div className="mb-16">
+
+                        <p className="mb-6 text-sm uppercase tracking-[0.2em] text-white/50">
+                            His Life
+                        </p>
+
+                        <h2 className="font-serif text-5xl md:text-6xl">
+                            Life & Legacy
+                        </h2>
+
+                    </div>
+
+
+                    <div className="max-w-4xl">
+
+                        {/* Timeline item */}
+                        <div className="grid grid-cols-[100px_1fr] gap-8 border-t border-white/10 py-8">
+
+                            <span className="text-sm text-white/40">
+                                YEAR
+                            </span>
+
+                            <div>
+                                <h3 className="text-xl">
+                                    Beginning of his artistic journey
+                                </h3>
+
+                                <p className="mt-3 leading-8 text-white/50">
+                                    A brief description of the beginning of his life
+                                    and artistic career will go here.
+                                </p>
+                            </div>
+
+                        </div>
+
+
+                        {/* Timeline item */}
+                        <div className="grid grid-cols-[100px_1fr] gap-8 border-t border-white/10 py-8">
+
+                            <span className="text-sm text-white/40">
+                                YEAR
+                            </span>
+
+                            <div>
+                                <h3 className="text-xl">
+                                    Developing his craft
+                                </h3>
+
+                                <p className="mt-3 leading-8 text-white/50">
+                                    A short description of an important period in his
+                                    artistic life.
+                                </p>
+                            </div>
+
+                        </div>
+
+
+                        {/* Timeline item */}
+                        <div className="grid grid-cols-[100px_1fr] gap-8 border-t border-white/10 py-8">
+
+                            <span className="text-sm text-white/40">
+                                YEAR
+                            </span>
+
+                            <div>
+                                <h3 className="text-xl">
+                                    Recognition and important works
+                                </h3>
+
+                                <p className="mt-3 leading-8 text-white/50">
+                                    We will add his important works, exhibitions,
+                                    achievements or other milestones here.
+                                </p>
+                            </div>
+
+                        </div>
+
+
+                        {/* Timeline item */}
+                        <div className="grid grid-cols-[100px_1fr] gap-8 border-t border-white/10 py-8">
+
+                            <span className="text-sm text-white/40">
+                                YEAR
+                            </span>
+
+                            <div>
+                                <h3 className="text-xl">
+                                    His legacy
+                                </h3>
+
+                                <p className="mt-3 leading-8 text-white/50">
+                                    A final short section about his influence, family,
+                                    work and the preservation of his art.
+                                </p>
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </section>
+
+
+            {/* Closing */}
+            <section className="border-t border-white/10 px-6 py-32 text-center">
 
                 <p className="mx-auto max-w-3xl font-serif text-3xl leading-relaxed md:text-5xl">
-                    آثار یک هنرمند، بخشی از نگاه او به جهان هستند؛
-                    و این نگاه می‌تواند برای همیشه باقی بماند.
+                    His work remains as a record of his vision,
+                    his patience and his dedication to the art.
                 </p>
 
             </section>
