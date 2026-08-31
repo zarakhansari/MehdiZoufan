@@ -30,7 +30,7 @@ export const artworks = [
     {
         id: 6,
         title: "Naghsh Eshg Book Cover",
-        image: `${IMG_BASE}/works/naghsh-eshgh-book-cover-by.jpeg`,
+        image: `${IMG_BASE}/works/naghsh-eshgh-book-cover.jpeg`,
     },
     {
         id: 7,
