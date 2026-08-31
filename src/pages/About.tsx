@@ -20,23 +20,19 @@ function About() {
                     <div className="max-w-xl">
 
                         <p className="mb-6 text-sm uppercase tracking-[0.2em] text-white/50">
-                            About the Artist
+                            درباره مهدی ذوفن
                         </p>
 
                         <h1 className="font-serif text-5xl leading-tight md:text-7xl">
-                            Mehdi Zoufan
+                            مهدی ذوفن
                         </h1>
 
                         <p className="mt-8 text-lg leading-9 text-white/70">
-                            Mehdi Zoufan was an Iranian artist whose work was deeply
-                            connected to the tradition of Ghalamzani, the art of
-                            engraving intricate designs onto metal.
+                            مهدی ذوفن هنرمندی برجسته و چهره‌ای شاخص در هنر قلم‌زنی، یکی از هنرهای اصیل و سنتی ایران به شمار می‌رفت. آثار هنری او که با دقت و ظرافتی شگفت‌انگیز بر روی فلز نقش بسته است، نتیجه سال‌ها تلاش، مهارت و تعهد عمیق او به این هنر سنتی است.
                         </p>
 
                         <p className="mt-6 text-base leading-8 text-white/60">
-                            Through patience, precision and an extraordinary attention
-                            to detail, he transformed metal surfaces into intricate
-                            works of art.
+                            مهدی ذوفن هنرمندی برجسته و چهره‌ای شاخص در هنر قلم‌زنی، یکی از هنرهای اصیل و سنتی ایران به شمار می‌رفت. آثار هنری او که با دقت و ظرافتی شگفت‌انگیز بر روی فلز نقش بسته است، نتیجه سال‌ها تلاش، مهارت و تعهد عمیق او به این هنر سنتی است.
                         </p>
 
                     </div>
@@ -56,13 +52,11 @@ function About() {
                         {/* Heading */}
                         <div>
                             <p className="mb-6 text-sm uppercase tracking-[0.2em] text-white/50">
-                                The Art
+
                             </p>
 
                             <h2 className="font-serif text-5xl leading-tight md:text-6xl">
-                                What is
-                                <br />
-                                Ghalamzani?
+                                هنر قلم زنی چیست؟
                             </h2>
                         </div>
 
@@ -70,18 +64,11 @@ function About() {
                         <div className="max-w-xl">
 
                             <p className="text-lg leading-9 text-white/70">
-                                Ghalamzani is a traditional Iranian art of engraving
-                                designs onto metal. The artist uses specialized chisels
-                                and a hammer to gradually create lines, patterns and
-                                textures on the surface of the metal.
+                                قلم‌زنی یکی از هنرهای سنتی و اصیل ایرانی است که شامل حکاکی نقوش بر روی فلز می‌شود. هنرمند با استفاده از قلم‌ها و چکش‌های مخصوص، به تدریج خطوط، الگوها و بافت‌های زیبایی را بر روی سطح فلز ایجاد می‌کند.
                             </p>
 
                             <p className="mt-6 text-base leading-8 text-white/50">
-                                The technique requires precision, patience and a deep
-                                understanding of line and composition. Floral patterns,
-                                figures, animals, architectural scenes and other
-                                decorative motifs can emerge from the metal through
-                                thousands of carefully controlled marks.
+                                این تکنیک نیازمند دقت، صبر و درک عمیقی از خط و ترکیب‌بندی است. نقوش گیاهی، حیوانات، مناظر معماری و سایر عناصر تزئینی از طریق هزاران ضربه کنترل شده بر روی فلز ظاهر می‌شوند.
                             </p>
 
                         </div>
@@ -117,11 +104,11 @@ function About() {
                     <div className="mb-16">
 
                         <p className="mb-6 text-sm uppercase tracking-[0.2em] text-white/50">
-                            His Life
+                            زندگی و میراث
                         </p>
 
                         <h2 className="font-serif text-5xl md:text-6xl">
-                            Life & Legacy
+                            زندگی و میراث
                         </h2>
 
                     </div>
@@ -133,17 +120,16 @@ function About() {
                         <div className="grid grid-cols-[100px_1fr] gap-8 border-t border-white/10 py-8">
 
                             <span className="text-sm text-white/40">
-                                YEAR
+                                سال
                             </span>
 
                             <div>
                                 <h3 className="text-xl">
-                                    Beginning of his artistic journey
+                                    سال های اولیه
                                 </h3>
 
                                 <p className="mt-3 leading-8 text-white/50">
-                                    A brief description of the beginning of his life
-                                    and artistic career will go here.
+                                    آثار هنری او که با دقت و ظرافتی شگفت‌انگیز بر روی فلز نقش بسته است، نتیجه سال‌ها تلاش، مهارت و تعهد عمیق او به این هنر سنتی است.
                                 </p>
                             </div>
 
