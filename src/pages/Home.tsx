@@ -26,17 +26,17 @@ function Home() {
                     <div className="flex items-center px-8 py-12 md:px-12">
                         <div className="max-w-xl text-right" dir="rtl">
 
-                            <p className="animate-fade-up mb-6 text-sm tracking-widest text-[#C5A059]">
+                            <p className="animate-fade-up mb-6 text-sm tracking-widest text-[#C5A059] translate-x-20">
                                 روایتی از آثار زرین و سیمین استاد مهدی ذوفن
                             </p>
 
-                            <h1 className="animate-fade-up animate-delay-200 font-serif text-5xl leading-[1.25] tracking-tight text-[#F4F4F6] md:text-7xl">
+                            <h1 className="animate-fade-up animate-delay-200 font-serif text-5xl leading-[1.25] tracking-tight text-[#F4F4F6] md:text-7xl translate-x-6">
                                 اصالت قلم،
                                 <br />
                                 جاودانگی نقش.
                             </h1>
 
-                            <p className="animate-fade-up animate-delay-400 mt-8 max-w-lg text-base leading-8 text-white/70">
+                            <p className="animate-fade-up animate-delay-400 mt-8 max-w-lg text-base leading-8 text-white/70 translate-x-20">
                                 تجلی هنر قلم‌گیری بر پیکره فلز؛ پیوند ظرافت قلم‌موی مینیاتور
                                 با شکیبایی فولاد بر صفحه سیمین، در امتداد سنت‌های کهن نگارگری ایرانی.
                             </p>
