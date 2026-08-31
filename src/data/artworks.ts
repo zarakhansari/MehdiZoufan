@@ -4,57 +4,57 @@ const IMG_BASE =
 export const artworks = [
     {
         id: 1,
-        title: "Angels",
+        title: "فرشته",
         image: `${IMG_BASE}/works/angels-by-zoufan.jpeg`,
     },
     {
         id: 2,
-        title: "Dance Group",
+        title: "رقص دسته جمعی",
         image: `${IMG_BASE}/works/dance-group-by-zoufan.jpeg`,
     },
     {
         id: 3,
-        title: "Horse Rider",
+        title: "اسب سوار",
         image: `${IMG_BASE}/works/horse-rider-by-zoufan.jpeg`,
     },
     {
         id: 4,
-        title: "Hunters",
+        title: "شکارچی",
         image: `${IMG_BASE}/works/hunters-by-zoufan.jpeg`,
     },
     {
         id: 5,
-        title: "Lovers",
+        title: "عاشقان",
         image: `${IMG_BASE}/works/lovers-by-zoufan.jpeg`,
     },
     {
         id: 6,
-        title: "Naghsh Eshg Book Cover",
+        title: "کتاب نقش عشق",
         image: `${IMG_BASE}/works/naghsh-eshgh-book-cover.jpeg`,
     },
     {
         id: 7,
-        title: "Old Man",
+        title: "پیر مرد",
         image: `${IMG_BASE}/works/oldman-by-zoufan.jpeg`,
     },
     {
         id: 8,
-        title: "Oval Birds and Flowers",
+        title: "گل و مرغ",
         image: `${IMG_BASE}/works/oval-birds-and-flowers.jpeg`,
     },
     {
         id: 9,
-        title: "Polo Players",
+        title: "چوگان باز",
         image: `${IMG_BASE}/works/polo-players-by-zoufan.jpeg`,
     },
     {
         id: 10,
-        title: "Round Birds And Flowers",
+        title: "گل و مرغ",
         image: `${IMG_BASE}/works/round-birds-and-flowers-by-zoufan.jpeg`,
     },
     {
         id: 11,
-        title: "Round Tray",
+        title: "سینی",
         image: `${IMG_BASE}/works/round-tray-by-zoufan.jpeg`,
     },
 ];
