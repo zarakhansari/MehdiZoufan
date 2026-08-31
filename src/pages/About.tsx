@@ -23,7 +23,7 @@ function About() {
                             درباره مهدی ذوفن
                         </p>
 
-                        <h1 className="font-serif text-5xl leading-tight md:text-7xl">
+                        <h1 className="font-bold text-5xl leading-tight md:text-7xl">
                             مهدی ذوفن
                         </h1>
 
@@ -55,7 +55,7 @@ function About() {
 
                             </p>
 
-                            <h2 className="font-serif text-5xl leading-tight md:text-6xl">
+                            <h2 className="font-bold text-5xl leading-tight md:text-6xl">
                                 هنر قلم زنی چیست؟
                             </h2>
                         </div>
@@ -107,7 +107,7 @@ function About() {
                             زندگی و میراث
                         </p>
 
-                        <h2 className="font-serif text-5xl md:text-6xl">
+                        <h2 className="font-bold text-5xl md:text-6xl">
                             زندگی و میراث
                         </h2>
 
@@ -208,7 +208,7 @@ function About() {
             {/* Closing */}
             <section className="border-t border-white/10 px-6 py-32 text-center">
 
-                <p className="mx-auto max-w-3xl font-serif text-3xl leading-relaxed md:text-5xl">
+                <p className="mx-auto max-w-3xl font-bold text-3xl leading-relaxed md:text-5xl">
                     His work remains as a record of his vision,
                     his patience and his dedication to the art.
                 </p>

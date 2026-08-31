@@ -101,7 +101,7 @@ function Contact() {
 
                 <a
                     href="mailto:your@email.com"
-                    className="mt-3 inline-block font-serif text-2xl transition-opacity hover:opacity-50 md:text-3xl"
+                    className="mt-3 inline-block font-bold text-2xl transition-opacity hover:opacity-50 md:text-3xl"
                 >
                     your@email.com
                 </a>

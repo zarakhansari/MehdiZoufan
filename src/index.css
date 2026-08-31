@@ -1,4 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Vazirmatn:wght@400;500;700;800;900&display=swap');
 @import "tailwindcss";
+
+@layer base {
+  html {
+    font-family: "Vazirmatn", sans-serif;
+  }
+
+  body {
+    font-family: "Vazirmatn", sans-serif;
+  }
+}
 
 html {
   direction: rtl;

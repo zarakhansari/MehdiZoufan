@@ -91,7 +91,7 @@ function Works() {
                     مجموعه
                 </p> */}
 
-                <h1 className="font-serif text-5xl tracking-tight md:text-7xl">
+                <h1 className="font-bold text-5xl tracking-tight md:text-7xl">
                     آثار هنری
                 </h1>
 
@@ -254,7 +254,7 @@ function Works() {
 
                     <div className="pb-8 text-center">
 
-                        <h2 className="font-serif text-xl md:text-2xl">
+                        <h2 className="font-bold text-xl md:text-2xl">
                             {currentArtwork.title}
                         </h2>
 

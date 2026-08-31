@@ -30,7 +30,7 @@ function Home() {
                                 روایتی از آثار زرین و سیمین استاد مهدی ذوفن
                             </p>
 
-                            <h1 className="animate-fade-up animate-delay-200 font-serif text-5xl leading-[1.25] tracking-tight text-[#F4F4F6] md:text-7xl translate-x-6">
+                            <h1 className="animate-fade-up animate-delay-200 font-bold text-5xl leading-[1.25] tracking-tight text-[#F4F4F6] md:text-7xl translate-x-6">
                                 اصالت قلم،
                                 <br />
                                 جاودانگی نقش.
@@ -71,7 +71,7 @@ function Home() {
                             شرح احوال و مکتب قلم‌گیری
                         </p>
 
-                        <h2 className="font-serif text-4xl leading-tight text-[#18191C] md:text-5xl">
+                        <h2 className="font-bold text-4xl leading-tight text-[#18191C] md:text-5xl">
                             اسـتاد مهـدی ذوفـن
                         </h2>
 
@@ -132,7 +132,7 @@ function Home() {
                                 دسته‌بندی و شاهکارها
                             </p>
 
-                            <h2 className="font-serif text-4xl text-[#F4F4F6] md:text-6xl">
+                            <h2 className="font-bold text-4xl text-[#F4F4F6] md:text-6xl">
                                 مشاهده گنجینه آثار
                             </h2>
                         </div>
