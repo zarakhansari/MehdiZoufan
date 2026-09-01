@@ -15,7 +15,7 @@ function Home() {
                     <div className="animate-fade-in flex items-center justify-center px-6 py-8 md:p-12">
                         <div className="h-full w-full overflow-hidden">
                             <img
-                                src="/tray.png"
+                                src="https://pub-b41ae2522b3148e08ec0fb3c8da55472.r2.dev/ArtWorks/round-tray.png"
                                 alt="سینی قلم‌زتی اثر استاد مهدی ذوفن"
                                 className="h-full w-full object-contain transition-transform duration-1000 hover:scale-[1.03]"
                             />
@@ -132,14 +132,14 @@ function Home() {
                                 دسته‌بندی و شاهکارها
                             </p>
 
-                            <h2 className="font-bold text-4xl text-[#F4F4F6] md:text-6xl">
+                            <h2 className="font-bold text-3xl text-[#F4F4F6] md:text-3xl">
                                 مشاهده گنجینه آثار
                             </h2>
                         </div>
 
                         <Link
                             to="/works"
-                            className="hidden items-center gap-2 text-xs tracking-widest text-[#C5A059] transition-opacity hover:opacity-70 md:inline-flex"
+                            className="hidden items-center gap-2 text-s tracking-widest text-[#C5A059] transition-opacity hover:opacity-70 md:inline-flex"
                         >
                             <span>مشاهده همه آثار</span>
                             <span>←</span>
