@@ -50,12 +50,12 @@ export const artworks = [
     {
         id: 10,
         title: "عاشقان در باغ",
-        image: `${IMG_BASE}/lovers-in-the-garde n.jpg`,
+        image: `${IMG_BASE}/lovers-in-the-garden.jpg`,
     },
     {
         id: 11,
         title: "ققنوس",
-        image: `${IMG_BASE}/pair-of-phoenix.jpg`,
+        image: `${IMG_BASE}/pair-of-phoenix.png`,
     },
     {
         id: 12,
