@@ -1,60 +1,65 @@
 const IMG_BASE =
-    "https://pub-b41ae2522b3148e08ec0fb3c8da55472.r2.dev/mehdi%20zoufan";
+    "https://pub-b41ae2522b3148e08ec0fb3c8da55472.r2.dev/ArtWorks";
 
 export const artworks = [
     {
         id: 1,
-        title: "فرشته",
-        image: `${IMG_BASE}/works/angels-by-zoufan.jpeg`,
+        title: "پرندگان و شکوفه ها",
+        image: `${IMG_BASE}/birds-and-blossoms.jpg`,
     },
     {
         id: 2,
-        title: "رقص دسته جمعی",
-        image: `${IMG_BASE}/works/dance-group-by-zoufan.jpeg`,
+        title: "رقص گلها",
+        image: `${IMG_BASE}/dance-of-flowers.png`,
     },
     {
         id: 3,
-        title: "اسب سوار",
-        image: `${IMG_BASE}/works/horse-rider-by-zoufan.jpeg`,
+        title: "رقص دوشیزگان",
+        image: `${IMG_BASE}/dance-of-the-maidens.jpg`,
     },
     {
         id: 4,
-        title: "شکارچی",
-        image: `${IMG_BASE}/works/hunters-by-zoufan.jpeg`,
+        title: "رقصنده با دایره",
+        image: `${IMG_BASE}/dancer-with-tambourine.jpg`,
     },
     {
         id: 5,
-        title: "عاشقان",
-        image: `${IMG_BASE}/works/lovers-by-zoufan.jpeg`,
+        title: "شکار اژدها",
+        image: `${IMG_BASE}/dragon-hunt.jpg`,
     },
     {
         id: 6,
-        title: "کتاب نقش عشق",
-        image: `${IMG_BASE}/works/naghsh-eshgh-book-cover.jpeg`,
+        title: "دوگان جهان",
+        image: `${IMG_BASE}/dual-worlds.jpg`,
     },
     {
         id: 7,
-        title: "پیر مرد",
-        image: `${IMG_BASE}/works/oldman-by-zoufan.jpeg`,
+        title: "باغ رویا",
+        image: `${IMG_BASE}/garden-of-dreams.jpg`,
     },
     {
         id: 8,
-        title: "گل و مرغ",
-        image: `${IMG_BASE}/works/oval-birds-and-flowers.jpeg`,
+        title: "محفل بزرگان",
+        image: `${IMG_BASE}/gathering-of-nobles.jpg`,
     },
     {
         id: 9,
-        title: "چوگان باز",
-        image: `${IMG_BASE}/works/polo-players-by-zoufan.jpeg`,
+        title: "شکار در شکارگاه",
+        image: `${IMG_BASE}/hunters-on-horseback.jpg`,
     },
     {
         id: 10,
-        title: "گل و مرغ",
-        image: `${IMG_BASE}/works/round-birds-and-flowers-by-zoufan.jpeg`,
+        title: "عاشقان در باغ",
+        image: `${IMG_BASE}/lovers-in-the-garde n.jpg`,
     },
     {
         id: 11,
-        title: "سینی",
-        image: `${IMG_BASE}/works/round-tray-by-zoufan.jpeg`,
+        title: "ققنوس",
+        image: `${IMG_BASE}/pair-of-phoenix.jpg`,
+    },
+    {
+        id: 12,
+        title: "چوگان باز",
+        image: `${IMG_BASE}/polo-player.jpg`,
     },
 ];
