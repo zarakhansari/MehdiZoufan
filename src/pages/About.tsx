@@ -86,7 +86,7 @@ function About() {
                 <div className="mx-auto max-w-7xl">
 
                     <img
-                        src="https://pub-b41ae2522b3148e08ec0fb3c8da55472.r2.dev/ArtWorks/polo-player-closeup-01.jpg"
+                        src="https://pub-b41ae2522b3148e08ec0fb3c8da55472.r2.dev/ArtWorks/polo-player-closeup-01.webp"
                         alt="Ghalamzani engraving"
                         className="max-h-[80vh] w-full object-cover"
                     />

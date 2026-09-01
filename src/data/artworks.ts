@@ -5,14 +5,14 @@ export const artworks = [
     {
         id: 1,
         title: "پرندگان و شکوفه ها",
-        image: `${IMG_BASE}/birds-and-blossoms.jpg`,
+        image: `${IMG_BASE}/birds-and-blossoms.webp`,
         category: "طبیعت و گل",
     },
 
     {
         id: 2,
         title: "رقص گلها",
-        image: `${IMG_BASE}/dance-of-flowers.png`,
+        image: `${IMG_BASE}/dance-of-flowers.webp`,
         category: "طبیعت و گل",
     },
 
@@ -26,14 +26,14 @@ export const artworks = [
     {
         id: 4,
         title: "رقصنده با دایره",
-        image: `${IMG_BASE}/dancer-with-tambourine.jpg`,
+        image: `${IMG_BASE}/dancer-with-tambourine.webp`,
         category: "چهره و پیکره",
     },
 
     {
         id: 5,
         title: "شکار اژدها",
-        image: `${IMG_BASE}/dragon-hunt.jpg`,
+        image: `${IMG_BASE}/dragon-hunt.webp`,
         category: "روایت و اسطوره",
     },
 
@@ -68,21 +68,21 @@ export const artworks = [
     {
         id: 10,
         title: "عاشقان در باغ",
-        image: `${IMG_BASE}/lovers-in-the-garden.jpg`,
+        image: `${IMG_BASE}/lovers-in-the-garden.webp`,
         category: "چهره و پیکره",
     },
 
     {
         id: 11,
         title: "ققنوس",
-        image: `${IMG_BASE}/pair-of-phoenix.png`,
+        image: `${IMG_BASE}/pair-of-phoenix.webp`,
         category: "روایت و اسطوره",
     },
 
     {
         id: 12,
         title: "چوگان باز",
-        image: `${IMG_BASE}/polo-player.jpg`,
+        image: `${IMG_BASE}/polo-player.webp`,
         category: "دربار و سنت",
     },
 ];
