@@ -10,7 +10,7 @@ function About() {
                     {/* Image */}
                     <div className="overflow-hidden">
                         <img
-                            src="/images/about-1.jpg"
+                            src="https://pub-b41ae2522b3148e08ec0fb3c8da55472.r2.dev/mehdi%20zoufan/portrait/mehdi-zoufan-portrait-03.jpeg"
                             alt="Mehdi Zoufan"
                             className="h-full w-full object-cover"
                         />
@@ -86,7 +86,7 @@ function About() {
                 <div className="mx-auto max-w-7xl">
 
                     <img
-                        src="/images/ghalamzani.jpg"
+                        src="https://pub-b41ae2522b3148e08ec0fb3c8da55472.r2.dev/ArtWorks/polo-player-closeup-01.jpg"
                         alt="Ghalamzani engraving"
                         className="max-h-[80vh] w-full object-cover"
                     />
@@ -209,8 +209,7 @@ function About() {
             <section className="border-t border-white/10 px-6 py-32 text-center">
 
                 <p className="mx-auto max-w-3xl font-bold text-3xl leading-relaxed md:text-5xl">
-                    His work remains as a record of his vision,
-                    his patience and his dedication to the art.
+                    هنر او میراثی جاودانه برای هنر قلم‌زنی و یادگاری ارزشمند از تعهد، مهارت و زیبایی‌شناسی او به شمار می‌رود.
                 </p>
 
             </section>
