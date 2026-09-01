@@ -1,21 +1,14 @@
 import { useEffect, useState } from "react";
 import { artworks } from "../data/artworks";
 
-
 function ArtworksSlideshow() {
     const [currentIndex, setCurrentIndex] = useState(0);
-    const [visible, setVisible] = useState(true);
 
     useEffect(() => {
         const timer = setInterval(() => {
-            setVisible(false);
-
-            setTimeout(() => {
-                setCurrentIndex(
-                    (current) => (current + 1) % artworks.length
-                );
-                setVisible(true);
-            }, 500);
+            setCurrentIndex(
+                (current) => (current + 1) % artworks.length
+            );
         }, 4000);
 
         return () => clearInterval(timer);
@@ -27,16 +20,7 @@ function ArtworksSlideshow() {
             <img
                 src={artworks[currentIndex].image}
                 alt={artworks[currentIndex].title}
-                className={`
-                    h-full
-                    w-auto
-                    max-w-[80%]
-                    object-contain
-                    transition-opacity
-                    duration-500
-                    ease-in-out
-                   
-                `}
+                className="h-full w-auto max-w-[80%] object-contain"
             />
 
         </div>
@@ -44,4 +28,3 @@ function ArtworksSlideshow() {
 }
 
 export default ArtworksSlideshow;
-
