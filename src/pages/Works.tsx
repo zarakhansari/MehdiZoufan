@@ -1,6 +1,7 @@
 import { useEffect, useState } from "react";
 import { artworks } from "../data/artworks";
 
+
 const categories = [
     "همه آثار",
     "طبیعت و گل",
@@ -260,8 +261,8 @@ function Works() {
                                     setSelectedArtwork(null);
                                 }}
                                 className={`text-xs tracking-[0.25em] transition-all duration-300 ${!exhibitionMode
-                                        ? "opacity-100"
-                                        : "opacity-35 hover:opacity-100"
+                                    ? "opacity-100"
+                                    : "opacity-35 hover:opacity-100"
                                     }`}
                             >
                                 GRID
@@ -277,8 +278,8 @@ function Works() {
                                     setSelectedArtwork(null);
                                 }}
                                 className={`text-xs tracking-[0.25em] transition-all duration-300 ${exhibitionMode
-                                        ? "opacity-100"
-                                        : "opacity-35 hover:opacity-100"
+                                    ? "opacity-100"
+                                    : "opacity-35 hover:opacity-100"
                                     }`}
                             >
                                 EXHIBITION

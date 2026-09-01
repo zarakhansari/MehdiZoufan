@@ -1,5 +1,5 @@
 import { Link } from "react-router";
-import { artworks } from "../data/artworks";
+
 import ArtworksSlideshow from "../components/ArtworksSlideshow";
 
 function Home() {
