@@ -26,7 +26,7 @@ function Navbar() {
 
                     {/* Logo */}
                     <div className="ml-2 flex h-15 w-15 items-center justify-center">
-                        <img src="/zoufan-logo.jpeg" alt="logo" />
+                        <img src="/zoufan-logo.webp" alt="logo" />
                     </div>
                 </Link>
 
