@@ -108,7 +108,7 @@ function Home() {
                     <div className="flex justify-center">
                         <div className="w-full max-w-lg overflow-hidden rounded-sm shadow-2xl">
                             <img
-                                src="/mehdi-zoufan-working-02.jpg"
+                                src="https://pub-b41ae2522b3148e08ec0fb3c8da55472.r2.dev/portraits/mehdi-zoufan-working-01.webp"
                                 alt="پرتره استاد مهدی ذوفن در کارگاه قلم‌زنی"
                                 className="w-full object-cover contrast-125 transition-all duration-700 hover:grayscale-0"
                             />

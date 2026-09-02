@@ -10,8 +10,7 @@ function About() {
                     {/* Image */}
                     <div className="overflow-hidden">
                         <img
-                            src="https://pub-b41ae2522b3148e08ec0fb3c8da55472.r2.dev/mehdi%20zoufan/portrait/mehdi-zoufan-portrait-03.jpeg"
-                            alt="Mehdi Zoufan"
+                            src="https://pub-b41ae2522b3148e08ec0fb3c8da55472.r2.dev/portraits/portrait-01.webp"
                             className="h-full w-full object-cover"
                         />
                     </div>

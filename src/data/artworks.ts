@@ -19,7 +19,7 @@ export const artworks = [
     {
         id: 3,
         title: "رقص دوشیزگان",
-        image: `${IMG_BASE}/dance-of-the-maidens.jpg`,
+        image: `${IMG_BASE}/dance-of-the-maidens.webp`,
         category: "چهره و پیکره",
     },
 
@@ -40,28 +40,28 @@ export const artworks = [
     {
         id: 6,
         title: "دوگان جهان",
-        image: `${IMG_BASE}/dual-worlds.jpg`,
+        image: `${IMG_BASE}/dual-worlds.webp`,
         category: "روایت و اسطوره",
     },
 
     {
         id: 7,
         title: "باغ رویا",
-        image: `${IMG_BASE}/garden-of-dreams.jpg`,
+        image: `${IMG_BASE}/garden-of-dreams.webp`,
         category: "طبیعت و گل",
     },
 
     {
         id: 8,
         title: "محفل بزرگان",
-        image: `${IMG_BASE}/gathering-of-nobles.jpg`,
+        image: `${IMG_BASE}/gathering-of-nobles.webp`,
         category: "دربار و سنت",
     },
 
     {
         id: 9,
         title: "شکار در شکارگاه",
-        image: `${IMG_BASE}/hunters-on-horseback.jpg`,
+        image: `${IMG_BASE}/hunters-on-horseback.webp`,
         category: "روایت و اسطوره",
     },
 
