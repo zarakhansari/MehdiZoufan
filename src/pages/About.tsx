@@ -11,6 +11,7 @@ function About() {
                     <div className="overflow-hidden">
                         <img
                             src="https://pub-b41ae2522b3148e08ec0fb3c8da55472.r2.dev/portraits/portrait-01.webp"
+                            alt="Mehdi Zoufan Portrait"
                             className="h-full w-full object-cover"
                         />
                     </div>
