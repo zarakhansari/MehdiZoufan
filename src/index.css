@@ -2,11 +2,11 @@
 
 @layer base {
   html {
-    font-family: "Vazirmatn", sans-serif;
+    font-family: "Vazirmatn Variable", "Vazirmatn", sans-serif;
   }
 
   body {
-    font-family: "Vazirmatn", sans-serif;
+    font-family: "Vazirmatn Variable", "Vazirmatn", sans-serif;
   }
 }
 
